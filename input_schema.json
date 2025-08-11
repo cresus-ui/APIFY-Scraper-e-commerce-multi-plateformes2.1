@@ -3,164 +3,69 @@
   "type": "object",
   "schemaVersion": 1,
   "properties": {
-    "search_terms": {
-      "title": "Search terms",
+    "search_queries": {
+      "title": "Liste des termes de recherche",
       "type": "array",
-      "description": "To extract contact details from Google places, simply enter",
-      "editor": "select",
-      "example": ["restaurant", "hotel", "shop"],
-      "prefill": []
-    },
-    "location": {
-       "title": "Location (use only one location per run)",
-       "type": "string",
-       "description": "Location to search in",
-       "example": "FRANCE",
-       "prefill": "FRANCE"
-     },
-    "number_of_places": {
-      "title": "Number of places to extract (per each search term or URL)",
-      "type": "integer",
-      "description": "Maximum number of places to extract",
-      "minimum": 1,
-      "maximum": 1000000
-    },
-    "language": {
-      "title": "Language",
-      "type": "string",
-      "description": "Language for the search results",
-      "editor": "select",
-      "enum": ["fr", "en", "es", "de", "it", "pt"],
-      "enumTitles": ["Français (France)", "English", "Español", "Deutsch", "Italiano", "Português"]
+      "description": "Liste des termes de recherche pour les produits",
+      "items": {
+        "type": "string"
+      },
+      "example": ["laptop", "smartphone", "headphones"]
     },
     "platforms": {
-      "title": "Plateformes e-commerce",
+      "title": "Plateformes à scraper",
       "type": "array",
-      "description": "Sélectionnez les plateformes à scraper",
-      "editor": "select",
+      "description": "Plateformes e-commerce à scraper",
       "items": {
         "type": "string",
         "enum": ["amazon", "ebay", "walmart", "etsy", "shopify"]
       },
-      "uniqueItems": true
+      "editor": "select"
     },
-    "filters_and_search": {
-      "title": "🎯 Filters and precise search",
-      "type": "object",
-      "description": "Various extra features, filters, and sorting options",
-      "properties": {
-        "track_prices": {
-          "title": "Suivi des prix",
-          "type": "boolean",
-          "description": "Activer le suivi automatique des prix"
-        },
-        "analyze_trends": {
-          "title": "Analyse des tendances",
-          "type": "boolean",
-          "description": "Analyser les tendances de prix et de popularité"
-        },
-        "include_reviews": {
-          "title": "Inclure les avis clients",
-          "type": "boolean",
-          "description": "Extraire les avis et notes des produits"
-        },
-        "condition": {
-          "title": "État du produit",
-          "type": "string",
-          "description": "Filtrer par état du produit",
-          "editor": "select",
-          "enum": ["all", "new", "used", "refurbished"],
-          "enumTitles": ["Tous", "Neuf", "Occasion", "Reconditionné"]
-        }
-      }
+    "max_products_per_query": {
+      "title": "Nombre max de produits par recherche",
+      "type": "integer",
+      "description": "Nombre maximum de produits à récupérer par terme de recherche",
+      "minimum": 1,
+      "maximum": 100
     },
-    "geolocation_parameters": {
-      "title": "👤 Geolocation parameters",
-      "type": "object",
-      "description": "Alternative ways to start the input",
-      "properties": {
-        "latitude": {
-          "title": "Latitude",
-          "type": "number",
-          "description": "Latitude coordinate",
-          "minimum": -90,
-          "maximum": 90
-        },
-        "longitude": {
-          "title": "Longitude",
-          "type": "number",
-          "description": "Longitude coordinate",
-          "minimum": -180,
-          "maximum": 180
-        },
-        "radius": {
-          "title": "Search radius",
-          "type": "integer",
-          "description": "Search radius in kilometers",
-          "minimum": 1,
-          "maximum": 100,
-          "unit": "km"
-        }
-      }
+    "enable_price_tracking": {
+      "title": "Activer le suivi des prix",
+      "type": "boolean",
+      "description": "Active le suivi automatique des prix des produits"
     },
-    "google_maps_urls": {
-      "title": "🔗 Google Maps URL instead of search terms",
+    "enable_trend_analysis": {
+      "title": "Activer l'analyse des tendances",
+      "type": "boolean",
+      "description": "Active l'analyse des tendances de marché"
+    },
+    "output_format": {
+      "title": "Format de sortie",
+      "type": "string",
+      "description": "Format des données de sortie",
+      "enum": ["json", "csv"],
+      "editor": "select"
+    },
+    "proxy_configuration": {
+      "title": "Configuration proxy",
       "type": "object",
-      "description": "Use Google Maps URLs instead of search terms",
+      "description": "Configuration des proxies pour le scraping",
       "properties": {
-        "urls": {
-          "title": "Google Maps URLs",
+        "use_proxy": {
+          "title": "Utiliser un proxy",
+          "type": "boolean",
+          "description": "Active l'utilisation de proxies"
+        },
+        "proxy_groups": {
+          "title": "Groupes de proxies",
           "type": "array",
-          "description": "List of Google Maps URLs to scrape",
-          "example": ["https://maps.google.com/maps?q=restaurants+paris"]
+          "description": "Liste des groupes de proxies à utiliser",
+          "items": {
+            "type": "string"
+          }
         }
       }
-    },
-    "run_options": {
-       "title": "⚙️ Run options",
-       "type": "object",
-       "description": "Configuration options for the scraper run",
-       "properties": {
-         "max_results": {
-          "title": "Maximum results",
-          "type": "string",
-          "description": "Maximum number of results to return"
-        },
-         "build": {
-          "title": "Build",
-          "type": "string",
-          "description": "Build version to use"
-        },
-         "timeout": {
-          "title": "Timeout",
-          "type": "string",
-          "description": "Maximum run time"
-        },
-         "memory": {
-          "title": "Memory",
-          "type": "string",
-          "description": "Memory allocation"
-        },
-         "proxy_settings": {
-           "title": "Configuration des proxies",
-           "type": "object",
-           "description": "Paramètres avancés pour les proxies",
-           "properties": {
-             "use_proxy": {
-                "title": "Utiliser des proxies",
-                "type": "boolean",
-                "description": "Activer l'utilisation de proxies"
-             },
-             "proxy_country": {
-                "title": "Pays du proxy",
-                "type": "string",
-                "description": "Code pays pour les proxies (ex: FR, US, DE)",
-               "pattern": "^[A-Z]{2}$"
-             }
-           }
-         }
-       }
-     }
+    }
   },
-  "required": ["search_terms", "location"]
+  "required": ["search_queries", "platforms"]
 }
