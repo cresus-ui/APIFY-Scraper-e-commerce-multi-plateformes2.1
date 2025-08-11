@@ -1,0 +1,113 @@
+# Fichiers à ignorer lors du déploiement sur Apify
+
+# Fichiers de développement
+.git/
+.gitignore
+.env
+.env.local
+.env.development
+.env.test
+
+# Tests
+tests/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+pytest.ini
+
+# Documentation
+README.md
+docs/
+
+# IDE et éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs locaux
+logs/
+*.log
+
+# Cache
+.cache/
+cache/
+temp/
+tmp/
+
+# Environnements virtuels
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Données locales
+storage/
+data/
+output/
+downloads/
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
+*.old
+
+# Fichiers sensibles
+*.pem
+*.key
+*.crt
+secrets.json
+credentials.json
+
+# Base de données locales
+*.db
+*.sqlite
+*.sqlite3
+
+# Fichiers de développement
+dev-requirements.txt
+requirements-dev.txt
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Docker (déjà géré par Apify)
+Dockerfile
+.dockerignore
+
+# Linting et formatage
+.flake8
+.pylintrc
+.black
+.isort.cfg
+
+# Debug
+debug/
+html_responses/
+
+# Node modules (si présents)
+node_modules/
+
+# Métriques locales
+metrics/
+monitoring/

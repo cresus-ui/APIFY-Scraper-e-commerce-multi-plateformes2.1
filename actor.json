@@ -1,0 +1,38 @@
+{
+  "actorSpecification": 1,
+  "name": "multi-platform-ecommerce-scraper",
+  "title": "Scraper E-commerce Multi-Plateformes",
+  "description": "Scraper avancé pour Amazon, eBay, Walmart, Etsy et Shopify avec suivi automatique des prix, stocks et analyse des tendances.",
+  "version": "1.0.0",
+  "meta": {
+    "templateId": "python-scrapy"
+  },
+  "input": "./input_schema.json",
+  "dockerfile": "./Dockerfile",
+  "readme": "./README.md",
+  "categories": [
+    "ECOMMERCE",
+    "BUSINESS_INTELLIGENCE",
+    "PRICE_MONITORING"
+  ],
+  "defaultRunOptions": {
+    "build": "latest",
+    "timeoutSecs": 3600,
+    "memoryMbytes": 4096
+  },
+  "example": {
+    "run": {
+      "input": {
+        "search_terms": ["laptop", "smartphone"],
+        "platforms": ["amazon", "ebay", "walmart"],
+        "max_pages": 3,
+        "track_prices": true,
+        "analyze_trends": true,
+        "include_reviews": false,
+        "condition": "all",
+        "min_price": 0,
+        "max_price": 10000
+      }
+    }
+  }
+}
