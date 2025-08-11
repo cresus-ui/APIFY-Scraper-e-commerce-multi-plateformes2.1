@@ -10,7 +10,7 @@
       "items": {
         "type": "string"
       },
-      "editor": "array",
+      "editor": "select",
       "example": [
         "iPhone 15 Pro Max",
         "Samsung Galaxy S24 Ultra",
