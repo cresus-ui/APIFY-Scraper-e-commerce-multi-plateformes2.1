@@ -64,8 +64,8 @@ cachetools>=5.3.0
 # Parsing d'URLs
 furl>=2.1.0
 
-# Gestion des cookies
-requests-cookies>=0.7.0
+# Gestion des cookies (intégrée dans requests)
+# requests inclut déjà requests.cookies pour la gestion des cookies
 
 # Détection de langue (pour l'analyse de contenu)
 langdetect>=1.0.9
