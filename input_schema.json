@@ -6,69 +6,87 @@
     "search_queries": {
       "title": "Liste des termes de recherche",
       "type": "array",
-      "description": "Liste des termes de recherche pour les produits",
+      "description": "Liste des termes de recherche pour les produits à récupérer sur les plateformes e-commerce.",
       "items": {
         "type": "string"
       },
       "editor": "array",
-      "example": ["laptop", "smartphone", "headphones"]
+      "example": [
+        "iPhone 15 Pro Max",
+        "Samsung Galaxy S24 Ultra",
+        "MacBook Air M3",
+        "Chaussures de course Nike Air Zoom",
+        "Montre connectée Garmin Fenix 7",
+        "Aspirateur robot Roomba i7",
+        "Sac à dos anti-vol",
+        "Casque audio Bose QC45",
+        "Tablette graphique Wacom Intuos Pro",
+        "Drone DJI Mini 4 Pro"
+      ]
     },
     "platforms": {
       "title": "Plateformes à scraper",
       "type": "array",
-      "description": "Plateformes e-commerce à scraper",
+      "description": "Sélectionnez les plateformes e-commerce sur lesquelles effectuer les recherches.",
       "items": {
         "type": "string",
         "enum": ["amazon", "ebay", "walmart", "etsy", "shopify"]
       },
-      "editor": "select"
+      "editor": "select",
+      "example": ["amazon", "ebay", "walmart"]
     },
     "max_products_per_query": {
       "title": "Nombre max de produits par recherche",
       "type": "integer",
-      "description": "Nombre maximum de produits à récupérer par terme de recherche",
+      "description": "Nombre maximum de produits à récupérer par terme de recherche.",
       "minimum": 1,
       "maximum": 100,
-      "editor": "number"
+      "editor": "number",
+      "example": 50
     },
     "enable_price_tracking": {
       "title": "Activer le suivi des prix",
       "type": "boolean",
-      "description": "Active le suivi automatique des prix des produits",
-      "editor": "checkbox"
+      "description": "Active le suivi automatique des prix des produits sur plusieurs exécutions.",
+      "editor": "checkbox",
+      "example": true
     },
     "enable_trend_analysis": {
       "title": "Activer l'analyse des tendances",
       "type": "boolean",
-      "description": "Active l'analyse des tendances de marché",
-      "editor": "checkbox"
+      "description": "Analyse l'évolution des recherches et des prix au fil du temps.",
+      "editor": "checkbox",
+      "example": true
     },
     "output_format": {
       "title": "Format de sortie",
       "type": "string",
-      "description": "Format des données de sortie",
+      "description": "Format des données de sortie générées par l'Actor.",
       "enum": ["json", "csv"],
-      "editor": "select"
+      "editor": "select",
+      "example": "json"
     },
     "proxy_configuration": {
       "title": "Configuration proxy",
       "type": "object",
-      "description": "Configuration des proxies pour le scraping",
+      "description": "Configuration des proxies pour éviter les blocages pendant le scraping.",
       "properties": {
         "use_proxy": {
           "title": "Utiliser un proxy",
           "type": "boolean",
-          "description": "Active l'utilisation de proxies",
-          "editor": "checkbox"
+          "description": "Active l'utilisation de proxies pour contourner les limitations.",
+          "editor": "checkbox",
+          "example": true
         },
         "proxy_groups": {
           "title": "Groupes de proxies",
           "type": "array",
-          "description": "Liste des groupes de proxies à utiliser",
+          "description": "Liste des groupes de proxies à utiliser (par exemple : US, EU, Premium).",
           "items": {
             "type": "string"
           },
-          "editor": "array"
+          "editor": "array",
+          "example": ["US", "EU"]
         }
       }
     }
