@@ -41,8 +41,10 @@
       "type": "array",
       "description": "Sélectionnez les plateformes à scraper",
       "editor": "select",
-      "enum": ["amazon", "ebay", "walmart", "etsy", "shopify"],
-      "enumTitles": ["Amazon", "eBay", "Walmart", "Etsy", "Shopify"],
+      "items": {
+        "type": "string",
+        "enum": ["amazon", "ebay", "walmart", "etsy", "shopify"]
+      },
       "uniqueItems": true,
       "default": ["amazon", "ebay"]
     },
