@@ -10,7 +10,7 @@
       "items": {
         "type": "string"
       },
-      "editor": "stringList",
+      "editor": "array",
       "example": ["laptop", "smartphone", "headphones"]
     },
     "platforms": {
@@ -68,7 +68,7 @@
           "items": {
             "type": "string"
           },
-          "editor": "stringList"
+          "editor": "array"
         }
       }
     }
