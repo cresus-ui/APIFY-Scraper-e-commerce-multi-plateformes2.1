@@ -10,6 +10,7 @@
       "items": {
         "type": "string"
       },
+      "editor": "stringList",
       "example": ["laptop", "smartphone", "headphones"]
     },
     "platforms": {
@@ -27,17 +28,20 @@
       "type": "integer",
       "description": "Nombre maximum de produits à récupérer par terme de recherche",
       "minimum": 1,
-      "maximum": 100
+      "maximum": 100,
+      "editor": "number"
     },
     "enable_price_tracking": {
       "title": "Activer le suivi des prix",
       "type": "boolean",
-      "description": "Active le suivi automatique des prix des produits"
+      "description": "Active le suivi automatique des prix des produits",
+      "editor": "checkbox"
     },
     "enable_trend_analysis": {
       "title": "Activer l'analyse des tendances",
       "type": "boolean",
-      "description": "Active l'analyse des tendances de marché"
+      "description": "Active l'analyse des tendances de marché",
+      "editor": "checkbox"
     },
     "output_format": {
       "title": "Format de sortie",
@@ -54,7 +58,8 @@
         "use_proxy": {
           "title": "Utiliser un proxy",
           "type": "boolean",
-          "description": "Active l'utilisation de proxies"
+          "description": "Active l'utilisation de proxies",
+          "editor": "checkbox"
         },
         "proxy_groups": {
           "title": "Groupes de proxies",
@@ -62,7 +67,8 @@
           "description": "Liste des groupes de proxies à utiliser",
           "items": {
             "type": "string"
-          }
+          },
+          "editor": "stringList"
         }
       }
     }
