@@ -1,0 +1,154 @@
+{
+  "title": "Configuration du Scraper E-commerce Multi-Plateformes",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "search_terms": {
+      "title": "Termes de recherche",
+      "type": "array",
+      "description": "Liste des produits ou mots-clés à rechercher",
+      "editor": "stringList",
+      "example": ["laptop", "smartphone", "headphones"],
+      "prefill": ["laptop"]
+    },
+    "platforms": {
+      "title": "Plateformes e-commerce",
+      "type": "array",
+      "description": "Sélectionnez les plateformes à scraper",
+      "editor": "select",
+      "enum": ["amazon", "ebay", "walmart", "etsy", "shopify"],
+      "enumTitles": ["Amazon", "eBay", "Walmart", "Etsy", "Shopify"],
+      "uniqueItems": true,
+      "default": ["amazon", "ebay"]
+    },
+    "max_pages": {
+      "title": "Nombre maximum de pages",
+      "type": "integer",
+      "description": "Nombre maximum de pages à scraper par plateforme",
+      "minimum": 1,
+      "maximum": 50,
+      "default": 3,
+      "unit": "pages"
+    },
+    "track_prices": {
+      "title": "Suivi des prix",
+      "type": "boolean",
+      "description": "Activer le suivi automatique des prix",
+      "default": true
+    },
+    "analyze_trends": {
+      "title": "Analyse des tendances",
+      "type": "boolean",
+      "description": "Analyser les tendances de prix et de popularité",
+      "default": true
+    },
+    "include_reviews": {
+      "title": "Inclure les avis clients",
+      "type": "boolean",
+      "description": "Extraire les avis et notes des produits",
+      "default": false
+    },
+    "condition": {
+      "title": "État du produit",
+      "type": "string",
+      "description": "Filtrer par état du produit",
+      "editor": "select",
+      "enum": ["all", "new", "used", "refurbished"],
+      "enumTitles": ["Tous", "Neuf", "Occasion", "Reconditionné"],
+      "default": "all"
+    },
+    "price_range": {
+      "title": "Fourchette de prix",
+      "type": "object",
+      "description": "Définir une fourchette de prix pour filtrer les résultats",
+      "properties": {
+        "min_price": {
+          "title": "Prix minimum",
+          "type": "number",
+          "minimum": 0,
+          "default": 0,
+          "unit": "€"
+        },
+        "max_price": {
+          "title": "Prix maximum",
+          "type": "number",
+          "minimum": 0,
+          "default": 10000,
+          "unit": "€"
+        }
+      }
+    },
+    "sorting": {
+      "title": "Tri des résultats",
+      "type": "string",
+      "description": "Méthode de tri des produits",
+      "editor": "select",
+      "enum": ["relevance", "price_low_to_high", "price_high_to_low", "rating", "newest"],
+      "enumTitles": ["Pertinence", "Prix croissant", "Prix décroissant", "Note client", "Plus récent"],
+      "default": "relevance"
+    },
+    "output_format": {
+      "title": "Format de sortie",
+      "type": "string",
+      "description": "Format des données exportées",
+      "editor": "select",
+      "enum": ["json", "csv", "xlsx"],
+      "enumTitles": ["JSON", "CSV", "Excel"],
+      "default": "json"
+    },
+    "proxy_settings": {
+      "title": "Configuration des proxies",
+      "type": "object",
+      "description": "Paramètres avancés pour les proxies",
+      "properties": {
+        "use_proxy": {
+          "title": "Utiliser des proxies",
+          "type": "boolean",
+          "description": "Activer l'utilisation de proxies rotatifs",
+          "default": true
+        },
+        "proxy_country": {
+          "title": "Pays du proxy",
+          "type": "string",
+          "description": "Code pays pour les proxies (FR, US, UK, etc.)",
+          "default": "FR",
+          "pattern": "^[A-Z]{2}$"
+        }
+      }
+    },
+    "advanced_options": {
+      "title": "Options avancées",
+      "type": "object",
+      "description": "Paramètres avancés pour le scraping",
+      "properties": {
+        "delay_between_requests": {
+          "title": "Délai entre les requêtes",
+          "type": "number",
+          "description": "Délai en secondes entre chaque requête",
+          "minimum": 0.5,
+          "maximum": 10,
+          "default": 2,
+          "unit": "secondes"
+        },
+        "max_retries": {
+          "title": "Nombre de tentatives",
+          "type": "integer",
+          "description": "Nombre maximum de tentatives en cas d'échec",
+          "minimum": 1,
+          "maximum": 5,
+          "default": 3
+        },
+        "timeout": {
+          "title": "Timeout des requêtes",
+          "type": "integer",
+          "description": "Timeout en secondes pour chaque requête",
+          "minimum": 10,
+          "maximum": 120,
+          "default": 30,
+          "unit": "secondes"
+        }
+      }
+    }
+  },
+  "required": ["search_terms", "platforms"]
+}

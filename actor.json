@@ -30,8 +30,21 @@
         "analyze_trends": true,
         "include_reviews": false,
         "condition": "all",
-        "min_price": 0,
-        "max_price": 10000
+        "price_range": {
+          "min_price": 0,
+          "max_price": 10000
+        },
+        "sorting": "relevance",
+        "output_format": "json",
+        "proxy_settings": {
+          "use_proxy": true,
+          "proxy_country": "FR"
+        },
+        "advanced_options": {
+          "delay_between_requests": 2,
+          "max_retries": 3,
+          "timeout": 30
+        }
       }
     }
   }
