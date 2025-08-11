@@ -7,7 +7,6 @@
       "title": "Search terms",
       "type": "array",
       "description": "To extract contact details from Google places, simply enter",
-      "editor": "stringList",
       "example": ["restaurant", "hotel", "shop"],
       "prefill": []
     },
@@ -15,7 +14,6 @@
        "title": "Location (use only one location per run)",
        "type": "string",
        "description": "Location to search in",
-       "editor": "textfield",
        "example": "FRANCE",
        "prefill": "FRANCE"
      },
@@ -49,7 +47,6 @@
       "title": "🎯 Filters and precise search",
       "type": "object",
       "description": "Various extra features, filters, and sorting options",
-      "editor": "object",
       "properties": {
         "track_prices": {
           "title": "Suivi des prix",
@@ -80,7 +77,6 @@
       "title": "👤 Geolocation parameters",
       "type": "object",
       "description": "Alternative ways to start the input",
-      "editor": "object",
       "properties": {
         "latitude": {
           "title": "Latitude",
@@ -110,13 +106,11 @@
       "title": "🔗 Google Maps URL instead of search terms",
       "type": "object",
       "description": "Use Google Maps URLs instead of search terms",
-      "editor": "object",
       "properties": {
         "urls": {
           "title": "Google Maps URLs",
           "type": "array",
           "description": "List of Google Maps URLs to scrape",
-          "editor": "stringList",
           "example": ["https://maps.google.com/maps?q=restaurants+paris"]
         }
       }
@@ -125,7 +119,6 @@
        "title": "⚙️ Run options",
        "type": "object",
        "description": "Configuration options for the scraper run",
-       "editor": "object",
        "properties": {
          "max_results": {
           "title": "Maximum results",
