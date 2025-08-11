@@ -12,12 +12,13 @@
       "prefill": []
     },
     "location": {
-      "title": "Location (use only one location per run)",
-      "type": "string",
-      "description": "Location to search in",
-      "example": "FRANCE",
-      "prefill": "FRANCE"
-    },
+       "title": "Location (use only one location per run)",
+       "type": "string",
+       "description": "Location to search in",
+       "editor": "textfield",
+       "example": "FRANCE",
+       "prefill": "FRANCE"
+     },
     "number_of_places": {
       "title": "Number of places to extract (per each search term or URL)",
       "type": "integer",
