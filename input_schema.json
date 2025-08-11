@@ -24,8 +24,7 @@
       "type": "integer",
       "description": "Maximum number of places to extract",
       "minimum": 1,
-      "maximum": 1000000,
-      "default": 500000
+      "maximum": 1000000
     },
     "language": {
       "title": "Language",
@@ -33,8 +32,7 @@
       "description": "Language for the search results",
       "editor": "select",
       "enum": ["fr", "en", "es", "de", "it", "pt"],
-      "enumTitles": ["Français (France)", "English", "Español", "Deutsch", "Italiano", "Português"],
-      "default": "fr"
+      "enumTitles": ["Français (France)", "English", "Español", "Deutsch", "Italiano", "Português"]
     },
     "platforms": {
       "title": "Plateformes e-commerce",
@@ -45,8 +43,7 @@
         "type": "string",
         "enum": ["amazon", "ebay", "walmart", "etsy", "shopify"]
       },
-      "uniqueItems": true,
-      "default": ["amazon", "ebay"]
+      "uniqueItems": true
     },
     "filters_and_search": {
       "title": "🎯 Filters and precise search",
@@ -57,20 +54,17 @@
         "track_prices": {
           "title": "Suivi des prix",
           "type": "boolean",
-          "description": "Activer le suivi automatique des prix",
-          "default": true
+          "description": "Activer le suivi automatique des prix"
         },
         "analyze_trends": {
           "title": "Analyse des tendances",
           "type": "boolean",
-          "description": "Analyser les tendances de prix et de popularité",
-          "default": true
+          "description": "Analyser les tendances de prix et de popularité"
         },
         "include_reviews": {
           "title": "Inclure les avis clients",
           "type": "boolean",
-          "description": "Extraire les avis et notes des produits",
-          "default": false
+          "description": "Extraire les avis et notes des produits"
         },
         "condition": {
           "title": "État du produit",
@@ -78,8 +72,7 @@
           "description": "Filtrer par état du produit",
           "editor": "select",
           "enum": ["all", "new", "used", "refurbished"],
-          "enumTitles": ["Tous", "Neuf", "Occasion", "Reconditionné"],
-          "default": "all"
+          "enumTitles": ["Tous", "Neuf", "Occasion", "Reconditionné"]
         }
       }
     },
@@ -109,7 +102,6 @@
           "description": "Search radius in kilometers",
           "minimum": 1,
           "maximum": 100,
-          "default": 10,
           "unit": "km"
         }
       }
@@ -136,45 +128,39 @@
        "editor": "object",
        "properties": {
          "max_results": {
-           "title": "Maximum results",
-           "type": "string",
-           "description": "Maximum number of results to return",
-           "default": "Unlimited"
-         },
+          "title": "Maximum results",
+          "type": "string",
+          "description": "Maximum number of results to return"
+        },
          "build": {
-           "title": "Build",
-           "type": "string",
-           "description": "Build version to use",
-           "default": "latest"
-         },
+          "title": "Build",
+          "type": "string",
+          "description": "Build version to use"
+        },
          "timeout": {
-           "title": "Timeout",
-           "type": "string",
-           "description": "Maximum run time",
-           "default": "3,600,000s"
-         },
+          "title": "Timeout",
+          "type": "string",
+          "description": "Maximum run time"
+        },
          "memory": {
-           "title": "Memory",
-           "type": "string",
-           "description": "Memory allocation",
-           "default": "1 GB"
-         },
+          "title": "Memory",
+          "type": "string",
+          "description": "Memory allocation"
+        },
          "proxy_settings": {
            "title": "Configuration des proxies",
            "type": "object",
            "description": "Paramètres avancés pour les proxies",
            "properties": {
              "use_proxy": {
-               "title": "Utiliser des proxies",
-               "type": "boolean",
-               "description": "Activer l'utilisation de proxies rotatifs",
-               "default": true
+                "title": "Utiliser des proxies",
+                "type": "boolean",
+                "description": "Activer l'utilisation de proxies"
              },
              "proxy_country": {
-               "title": "Pays du proxy",
-               "type": "string",
-               "description": "Code pays pour les proxies (FR, US, UK, etc.)",
-               "default": "FR",
+                "title": "Pays du proxy",
+                "type": "string",
+                "description": "Code pays pour les proxies (ex: FR, US, DE)",
                "pattern": "^[A-Z]{2}$"
              }
            }
