@@ -191,7 +191,7 @@ async def main():
             
         except Exception as e:
             logger.error(f"Erreur lors de l'exécution: {str(e)}")
-            await Actor.fail(f"Erreur lors du scraping: {str(e)}")
+            await Actor.fail()
 
 if __name__ == '__main__':
     asyncio.run(main())

@@ -342,11 +342,15 @@ class TrendAnalyzer:
             category_analysis[category] = analysis
         
         # Trie par nombre de produits
-        sorted_categories = sorted(
-            category_analysis.items(),
-            key=lambda x: x[1]['total_products'],
-            reverse=True
-        )
+        try:
+            sorted_categories = sorted(
+                category_analysis.items(),
+                key=lambda x: x[1].get('total_products', 0) if isinstance(x[1], dict) else 0,
+                reverse=True
+            )
+        except Exception as e:
+            logger.error(f"Erreur lors du tri des catégories: {e}")
+            sorted_categories = list(category_analysis.items())
         
         return {
             'categories': dict(sorted_categories),
@@ -428,6 +432,14 @@ class TrendAnalyzer:
             'total_platforms': len(platform_analysis),
             'analysis_period_days': days
         }
+    
+    def analyze(self, products: List[Dict[str, Any]]) -> Dict[str, Any]:
+        """Méthode principale d'analyse des tendances"""
+        # Ajoute les données produits
+        self.add_product_data(products)
+        
+        # Génère le rapport complet
+        return self.generate_trend_report()
     
     def generate_trend_report(self, days: int = 7) -> Dict[str, Any]:
         """Génère un rapport complet des tendances"""

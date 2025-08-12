@@ -1,0 +1,23 @@
+{
+  "platform": "amazon",
+  "product_data": {
+    "title": "Amazon's Choice: Overall Pick",
+    "price": {
+      "original": 173.0,
+      "discounted": 173.0,
+      "currency": "USD"
+    },
+    "original_price": 173.0,
+    "discounted_price": 173.0,
+    "currency": "USD",
+    "url": "https://www.amazon.com/HP-Micro-edge-Microsoft-14-dq0040nr-Snowflake/dp/B0947BJ67M/ref=sr_1_4?dib=eyJ2IjoiMSJ9.V1V3VAhmZv1g13Y1gixsKCUfYSrjPqeXEopgX6uZKTVahjc3DGYTNKm4-0_4y0NuUuuRvVOeK1J6VE8ZwNGsOfaGRDd0CGlagpOQeesQl__ITJ2gnYf0WWfsbt2IKrnaj2F4X6GkkT-xCN3Kalx2Zs-3PiIasMkWCfnCvFR7Ya1KmjCQoLMyu2IlnnjjbfkBJx8Xgi8tD6gIfOcgSNGPi6Vzg5vxQqNMhw7fGKxEyGg.RdbSVijd-F1Oysat8IzqkkKpj4ctTSVMunpusX2tA6Q&dib_tag=se&keywords=laptop&qid=1754931014&sr=8-4",
+    "image_url": "https://m.media-amazon.com/images/I/815uX7wkOZS._AC_UY218_.jpg",
+    "rating": 4.1,
+    "reviews_count": 0,
+    "availability": "unknown",
+    "asin": "B0947BJ67M",
+    "platform": "amazon",
+    "search_term": "laptop"
+  },
+  "scraped_at": "2025-08-11T18:51:36.224976"
+}

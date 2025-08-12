@@ -1,0 +1,120 @@
+{
+  "test_summary": {
+    "total_tests": 3,
+    "successful_tests": 1,
+    "failed_tests": 2,
+    "total_execution_time": 94.41887307167053,
+    "generated_at": "2025-08-11T18:49:21.531882"
+  },
+  "test_results": [
+    {
+      "test_name": "Test Basique",
+      "input_data": {
+        "search_queries": [
+          "laptop"
+        ],
+        "max_products_per_query": 5,
+        "platforms": {
+          "amazon": {
+            "enabled": true,
+            "max_pages": 1
+          },
+          "ebay": {
+            "enabled": true,
+            "max_pages": 1
+          },
+          "walmart": {
+            "enabled": false
+          },
+          "etsy": {
+            "enabled": false
+          }
+        }
+      },
+      "execution_time": 94.41741013526917,
+      "success": true,
+      "results": {
+        "total_products": 0,
+        "platforms": {},
+        "trend_analysis": {
+          "total_products": 0,
+          "platforms_scraped": [
+            "amazon",
+            "ebay",
+            "walmart",
+            "etsy"
+          ],
+          "price_trends": {
+            "trend": "no_data",
+            "analysis": {}
+          },
+          "stock_analysis": {},
+          "popular_categories": [],
+          "timestamp": "2025-08-11T18:49:21.360184"
+        }
+      },
+      "timestamp": "2025-08-11T18:49:21.511050"
+    },
+    {
+      "test_name": "Test Recherche Multiple",
+      "input_data": {
+        "search_queries": [
+          "smartphone",
+          "tablet"
+        ],
+        "max_products_per_query": 3,
+        "platforms": {
+          "amazon": {
+            "enabled": true,
+            "max_pages": 1
+          },
+          "ebay": {
+            "enabled": true,
+            "max_pages": 1
+          },
+          "walmart": {
+            "enabled": false
+          },
+          "etsy": {
+            "enabled": false
+          }
+        }
+      },
+      "execution_time": 0.0004849433898925781,
+      "success": false,
+      "error": "Service Configuration is already in use. Existing value: internal_timeout=None default_browser_path=None disable_browser_sandbox=False log_level='INFO' default_dataset_id='default' default_key_value_store_id='default' default_request_queue_id='default' purge_on_start=True write_metadata=True persist_storage=True persist_state_interval=datetime.timedelta(seconds=60) system_info_interval=datetime.timedelta(seconds=1) max_used_cpu_ratio=0.95 max_used_memory_ratio=0.9 max_event_loop_delay=datetime.timedelta(microseconds=50000) max_client_errors=1 memory_mbytes=None available_memory_ratio=0.25 storage_dir='./storage' headless=True actor_id=None actor_full_name=None actor_run_id=None actor_build_id=None actor_build_number=None actor_build_tags=None actor_task_id=None actor_events_ws_url=None api_base_url='https://api.apify.com' api_public_base_url='https://api.apify.com' dedicated_cpus=None disable_outdated_warning=False fact=None input_key='INPUT' input_secrets_private_key_file=None input_secrets_private_key_passphrase=None is_at_home=False latest_sdk_version=None log_format=None max_paid_dataset_items=None max_total_charge_usd=None test_pay_per_event=False meta_origin=None metamorph_after_sleep=datetime.timedelta(seconds=300) proxy_hostname='proxy.apify.com' proxy_password=None proxy_port=8000 proxy_status_url='http://proxy.apify.com' started_at=None timeout_at=None standby_port=4321 standby_url='http://localhost' token=None user_id=None user_is_paying=False web_server_port=4321 web_server_url='http://localhost:4321' workflow_key=None, attempted new value: internal_timeout=None default_browser_path=None disable_browser_sandbox=False log_level='INFO' default_dataset_id='default' default_key_value_store_id='default' default_request_queue_id='default' purge_on_start=True write_metadata=True persist_storage=True persist_state_interval=datetime.timedelta(seconds=60) system_info_interval=datetime.timedelta(seconds=1) max_used_cpu_ratio=0.95 max_used_memory_ratio=0.9 max_event_loop_delay=datetime.timedelta(microseconds=50000) max_client_errors=1 memory_mbytes=None available_memory_ratio=0.25 storage_dir='./storage' headless=True actor_id=None actor_full_name=None actor_run_id=None actor_build_id=None actor_build_number=None actor_build_tags=None actor_task_id=None actor_events_ws_url=None api_base_url='https://api.apify.com' api_public_base_url='https://api.apify.com' dedicated_cpus=None disable_outdated_warning=False fact=None input_key='INPUT' input_secrets_private_key_file=None input_secrets_private_key_passphrase=None is_at_home=False latest_sdk_version=None log_format=None max_paid_dataset_items=None max_total_charge_usd=None test_pay_per_event=False meta_origin=None metamorph_after_sleep=datetime.timedelta(seconds=300) proxy_hostname='proxy.apify.com' proxy_password=None proxy_port=8000 proxy_status_url='http://proxy.apify.com' started_at=None timeout_at=None standby_port=4321 standby_url='http://localhost' token=None user_id=None user_is_paying=False web_server_port=4321 web_server_url='http://localhost:4321' workflow_key=None.",
+      "timestamp": "2025-08-11T18:49:21.515022"
+    },
+    {
+      "test_name": "Test Toutes Plateformes",
+      "input_data": {
+        "search_queries": [
+          "headphones"
+        ],
+        "max_products_per_query": 2,
+        "platforms": {
+          "amazon": {
+            "enabled": true,
+            "max_pages": 1
+          },
+          "ebay": {
+            "enabled": true,
+            "max_pages": 1
+          },
+          "walmart": {
+            "enabled": true,
+            "max_pages": 1
+          },
+          "etsy": {
+            "enabled": true,
+            "max_pages": 1
+          }
+        }
+      },
+      "execution_time": 0.0009779930114746094,
+      "success": false,
+      "error": "Service Configuration is already in use. Existing value: internal_timeout=None default_browser_path=None disable_browser_sandbox=False log_level='INFO' default_dataset_id='default' default_key_value_store_id='default' default_request_queue_id='default' purge_on_start=True write_metadata=True persist_storage=True persist_state_interval=datetime.timedelta(seconds=60) system_info_interval=datetime.timedelta(seconds=1) max_used_cpu_ratio=0.95 max_used_memory_ratio=0.9 max_event_loop_delay=datetime.timedelta(microseconds=50000) max_client_errors=1 memory_mbytes=None available_memory_ratio=0.25 storage_dir='./storage' headless=True actor_id=None actor_full_name=None actor_run_id=None actor_build_id=None actor_build_number=None actor_build_tags=None actor_task_id=None actor_events_ws_url=None api_base_url='https://api.apify.com' api_public_base_url='https://api.apify.com' dedicated_cpus=None disable_outdated_warning=False fact=None input_key='INPUT' input_secrets_private_key_file=None input_secrets_private_key_passphrase=None is_at_home=False latest_sdk_version=None log_format=None max_paid_dataset_items=None max_total_charge_usd=None test_pay_per_event=False meta_origin=None metamorph_after_sleep=datetime.timedelta(seconds=300) proxy_hostname='proxy.apify.com' proxy_password=None proxy_port=8000 proxy_status_url='http://proxy.apify.com' started_at=None timeout_at=None standby_port=4321 standby_url='http://localhost' token=None user_id=None user_is_paying=False web_server_port=4321 web_server_url='http://localhost:4321' workflow_key=None, attempted new value: internal_timeout=None default_browser_path=None disable_browser_sandbox=False log_level='INFO' default_dataset_id='default' default_key_value_store_id='default' default_request_queue_id='default' purge_on_start=True write_metadata=True persist_storage=True persist_state_interval=datetime.timedelta(seconds=60) system_info_interval=datetime.timedelta(seconds=1) max_used_cpu_ratio=0.95 max_used_memory_ratio=0.9 max_event_loop_delay=datetime.timedelta(microseconds=50000) max_client_errors=1 memory_mbytes=None available_memory_ratio=0.25 storage_dir='./storage' headless=True actor_id=None actor_full_name=None actor_run_id=None actor_build_id=None actor_build_number=None actor_build_tags=None actor_task_id=None actor_events_ws_url=None api_base_url='https://api.apify.com' api_public_base_url='https://api.apify.com' dedicated_cpus=None disable_outdated_warning=False fact=None input_key='INPUT' input_secrets_private_key_file=None input_secrets_private_key_passphrase=None is_at_home=False latest_sdk_version=None log_format=None max_paid_dataset_items=None max_total_charge_usd=None test_pay_per_event=False meta_origin=None metamorph_after_sleep=datetime.timedelta(seconds=300) proxy_hostname='proxy.apify.com' proxy_password=None proxy_port=8000 proxy_status_url='http://proxy.apify.com' started_at=None timeout_at=None standby_port=4321 standby_url='http://localhost' token=None user_id=None user_is_paying=False web_server_port=4321 web_server_url='http://localhost:4321' workflow_key=None.",
+      "timestamp": "2025-08-11T18:49:21.528869"
+    }
+  ]
+}

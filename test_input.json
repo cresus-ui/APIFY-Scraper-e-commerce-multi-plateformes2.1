@@ -1,0 +1,25 @@
+{
+  "search_queries": ["smartphone", "headphones"],
+  "max_products_per_query": 10,
+  "enable_price_tracking": true,
+  "enable_trend_analysis": true,
+  "platforms": {
+    "amazon": {
+      "enabled": true,
+      "max_pages": 2
+    },
+    "ebay": {
+      "enabled": true,
+      "max_pages": 2
+    },
+    "walmart": {
+      "enabled": false
+    },
+    "etsy": {
+      "enabled": false
+    }
+  },
+  "proxy_configuration": {
+    "use_proxy": false
+  }
+}
