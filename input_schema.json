@@ -41,7 +41,7 @@
         "type": "string",
         "enum": ["amazon", "ebay", "walmart", "etsy", "shopify"]
       },
-      "editor": "checkbox",
+      "editor": "select",
       "minItems": 1,
       "uniqueItems": true,
       "prefill": ["amazon", "ebay"],
