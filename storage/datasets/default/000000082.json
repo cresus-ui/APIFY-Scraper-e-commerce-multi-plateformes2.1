@@ -1,0 +1,29 @@
+{
+  "platform": "ebay",
+  "product_data": {
+    "title": "HP 15.6\" laptop (Intel, 8Gb RAM, 256Gb SSD, 3.7Ghz) BRAND NEW 15FD0015TGBrand New·HP$259.99Was:$399.9935% offBuy It Now+$258.44 deliveryLocated in United States26 soldderosnopS",
+    "price": 259.99,
+    "original_price": 259.99,
+    "currency": "USD",
+    "url": "https://www.ebay.com/itm/387766014263?_skw=laptop&epid=20070251258&itmmeta=01K2FTBHSERBF4F9XBCSA97JTQ&hash=item5a48a7d137:g:7UAAAOSw1MVnasSv&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1eHM8nJnSqOZCZ3dLfzxonj0IL3Zo9duCeWxaOU%2BLvBokhkl1gE39n3xxPYJmcRbjn%2FPz3hKn0AJOslOs%2BXVOFYw8gLmqa8JuYk0g7QHShaXb7s6%2Bx3%2BFO%2Fzel309zdPlCs%2Bt7JwtMl%2BnHsPiml%2BGIHFsDPhmB8OBHAfZh2YcPC%2FbNrMwlmlAs6m9uOtVTQwCXBpB4Kxo%2B2%2Fa4%2Bow4P2o8vxRwQcYcLQ5JcLkbvG3U2fi7II4LypMmBbDefMcQjnAMRRl4PwTR5F63NBvcQgPz3%7Ctkp%3ABk9SR-qcrvqTZg",
+    "image_url": "",
+    "condition": "new",
+    "sale_type": "fixed_price",
+    "time_left": "",
+    "bid_count": 0,
+    "seller": {
+      "name": "",
+      "feedback": "",
+      "location": ""
+    },
+    "shipping": {
+      "cost": "+$258.44 delivery",
+      "location": "Located in United States"
+    },
+    "item_id": "387766014263",
+    "platform": "ebay",
+    "search_term": "laptop",
+    "condition_filter": "all"
+  },
+  "scraped_at": "2025-08-12T20:58:42.267629"
+}

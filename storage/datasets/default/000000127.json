@@ -1,0 +1,29 @@
+{
+  "platform": "ebay",
+  "product_data": {
+    "title": "Dell Latitude 5500 Laptop 15.6\" i5-8265U 1.6GHz 8GB Ram 256GB SSDPre-Owned·Dell$347.29or Best Offer+$20.31 deliveryLocated in GermanyderosnopS",
+    "price": 347.29,
+    "original_price": 347.29,
+    "currency": "USD",
+    "url": "https://www.ebay.com/itm/136299191977?_skw=laptop&itmmeta=01K2FTBW33NRE5YR3WNCHBAMKV&hash=item1fbc109ea9:g:P6IAAeSweAVomLdi&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1eSS9bV2o89YR%2BVD4K7KtGzltqiDF3c4GR2Ky4HWg7XatcqnwT5kDmSqyZtshc4cn8v%2B4hg4bScfpCGRrflQgDUywUxFzJb6GVbuNKCTsGx24AFpSouHOlk93Ma2NyoDuYeYb%2BuCC7VWmqXm6LGz6J%2BmCSx08D5dg2eCgU1w9XXacPwZEnqUy2uAkPwJzr3TNLlLMmBO8XKuWHHicJ%2BGWXlkQjVhAsyjUK%2BSl%2BXE8xwXz36GOSbUlLakC2w7a0%2B6jjbs8bGo2QTzgoyUBBhRxdZ%7Ctkp%3ABFBM1sGv-pNm",
+    "image_url": "",
+    "condition": "unknown",
+    "sale_type": "fixed_price",
+    "time_left": "",
+    "bid_count": 0,
+    "seller": {
+      "name": "",
+      "feedback": "",
+      "location": ""
+    },
+    "shipping": {
+      "cost": "+$20.31 delivery",
+      "location": "Located in Germany"
+    },
+    "item_id": "136299191977",
+    "platform": "ebay",
+    "search_term": "laptop",
+    "condition_filter": "all"
+  },
+  "scraped_at": "2025-08-12T20:58:42.465861"
+}

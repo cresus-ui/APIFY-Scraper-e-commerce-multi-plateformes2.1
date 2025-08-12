@@ -1,0 +1,29 @@
+{
+  "platform": "ebay",
+  "product_data": {
+    "title": "Getac B300 G5 | i7 4th Gen | 8GB RAM 256GB SSD | Touchscreen | Windows 10 Pro |Pre-Owned$290.29or Best Offer+$47.17 deliveryLocated in Canada12 watchersderosnopS",
+    "price": 290.29,
+    "original_price": 290.29,
+    "currency": "USD",
+    "url": "https://www.ebay.com/itm/376327229034?_skw=laptop&itmmeta=01K2FTBCFR8XECHVQN6Q60AEBT&hash=item579ed9ce6a:g:cpEAAOSwoYRoSHit&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1cA%2BfM4zpQYH04tUyu46jzWYd%2B3YMUC%2FczVq80uMjr44kDHFG%2BBEkIGMtcjKBtvRESKrHj9WCjIrJgyacfgjJRMUo6AipeqnYKe5MSgVLQYWsQ60MxWgxAZI6neQnG65hopdaIk4okXNATna4t6OkH%2FpOwbJ9MwamAzeJkxyK6ycb5C2foOqLSiDqGWvcOxYtvlFZSGVOIFIJM2xzg1HXRKJTwVEdIpnTKI77mNTpkcbg%3D%3D%7Ctkp%3ABk9SR4LIrfqTZg",
+    "image_url": "",
+    "condition": "unknown",
+    "sale_type": "fixed_price",
+    "time_left": "",
+    "bid_count": 0,
+    "seller": {
+      "name": "",
+      "feedback": "",
+      "location": ""
+    },
+    "shipping": {
+      "cost": "+$47.17 delivery",
+      "location": "Located in Canada"
+    },
+    "item_id": "376327229034",
+    "platform": "ebay",
+    "search_term": "laptop",
+    "condition_filter": "all"
+  },
+  "scraped_at": "2025-08-12T20:58:42.165570"
+}

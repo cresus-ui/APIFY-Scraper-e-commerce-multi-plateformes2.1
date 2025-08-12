@@ -1,0 +1,29 @@
+{
+  "platform": "ebay",
+  "product_data": {
+    "title": "Microsoft Surface Pro X 13\" Touch (256GB SSD, Microsoft SQ1, 3.00GHz, 8GB,...Pre-Owned$479.53or Best Offer+$34.85 deliveryLocated in ItalyderosnopS",
+    "price": 479.53,
+    "original_price": 479.53,
+    "currency": "USD",
+    "url": "https://www.ebay.com/itm/365794085947?_skw=laptop&epid=21049800757&itmmeta=01K2FTBW342FJJRAG1C66GKZ70&hash=item552b06cc3b:g:IGoAAeSwjyZoSD9k&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1dQ94rVJ1%2FsZZ7epP2GYqspx4gfjJE5AYlIR6DnNAODrl7uagAmZRPr%2FdIhN1TGF2TbB7GnSSjZnV3cbX4VJPnXq0zPaEHgQH0CCZzAMP%2FGTCHHqCg9SX7voeagn6ySYpejAlKxpnhzh6cy3vXvig01o2WDQjJwmdtCJhIlT2DT8CySraW9GkoqDieIozFM9gRe%2Bdp%2BO49L27H%2FnnCupQc0x2y%2FtIq5cZ0utYggHZ5VFUFGNyjQxSKT%2BdmoRBKpi8kolzaF6HB3CnOsdJ1luOZs%7Ctkp%3ABk9SR9bBr_qTZg",
+    "image_url": "",
+    "condition": "unknown",
+    "sale_type": "fixed_price",
+    "time_left": "",
+    "bid_count": 0,
+    "seller": {
+      "name": "",
+      "feedback": "",
+      "location": ""
+    },
+    "shipping": {
+      "cost": "+$34.85 delivery",
+      "location": "Located in Italy"
+    },
+    "item_id": "365794085947",
+    "platform": "ebay",
+    "search_term": "laptop",
+    "condition_filter": "all"
+  },
+  "scraped_at": "2025-08-12T20:58:42.509833"
+}

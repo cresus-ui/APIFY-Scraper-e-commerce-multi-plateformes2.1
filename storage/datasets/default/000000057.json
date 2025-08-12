@@ -1,0 +1,29 @@
+{
+  "platform": "ebay",
+  "product_data": {
+    "title": "HP Laptop Ultra Core 7 32GB RAM 1T Nvidia RTX 3050 FHD TouchPre-Owned·HP$763.29Buy It Now+$668.57 deliveryLocated in United StatesderosnopS",
+    "price": 763.29,
+    "original_price": 763.29,
+    "currency": "USD",
+    "url": "https://www.ebay.com/itm/197103362528?_skw=laptop&itmmeta=01K2FTBCFRXWCZ04AJHM2Y0Q2M&hash=item2de446a1e0:g:9coAAeSwKqloiQ2N&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1cJImt0vyxg8PLouAY%2BKndPdBhOlnEEnL38Q8cVYSzmPwJ46DmM1ZeMi%2BFR1IsoQ8IvVrS%2FB5dO9hq6kdelOomfkJhLMnt2Bf7ecCuTVOXhvTiustU9DKxWWaZD0%2Bw1YemuOKwFCJUlx0%2FaYHiyKRd0h8E1ipay4QqLhnpeZs448BMzdgVtOMeL583Z2K8PTkOJJX9p6gr3LyR9eyuYf6znlDIO7AydII33lklvoNhRqQ%3D%3D%7Ctkp%3ABk9SR4DIrfqTZg",
+    "image_url": "",
+    "condition": "unknown",
+    "sale_type": "fixed_price",
+    "time_left": "",
+    "bid_count": 0,
+    "seller": {
+      "name": "",
+      "feedback": "",
+      "location": ""
+    },
+    "shipping": {
+      "cost": "+$668.57 delivery",
+      "location": "Located in United States"
+    },
+    "item_id": "197103362528",
+    "platform": "ebay",
+    "search_term": "laptop",
+    "condition_filter": "all"
+  },
+  "scraped_at": "2025-08-12T20:58:42.151133"
+}

@@ -1,13 +1,13 @@
 {
   "platform": "ebay",
   "product_data": {
-    "title": "Shop on eBayOpens in a new window or tab",
-    "price": 20.0,
-    "original_price": 20.0,
+    "title": "Dell Latitude 5320 FHD Business Laptop Core i7 32GB RAM 512GB SSD Windows 11Good - Refurbished·Dell$318.26Buy It Now+$264.48 deliveryLocated in United StateseBay RefurbishedderosnopS",
+    "price": 318.26,
+    "original_price": 318.26,
     "currency": "USD",
-    "url": "https://ebay.com/itm/123456?itmmeta=012DEW30YG0MEEKND7NH&hash=item123546:g:acwAA9KNiJowH:sc:ShippingMethodStandard!95008!US!-1&itmprp=enc%3AbgepL1tlUHjMGCVfSTGJh%2BzsVKeJ3CQk7NizDI4BZeppuFnmyS6Ijyp8lh%2FnEw%2BWqO7uTV1Q6izE1R0T54aV8j71F4xlWfVcGft4%2FiOQhtqVXA1rW6M1atPARQRmhqUxtEPJKhKtSFgI%2Bvwlzb0GwVCtkp%3ABlBMUObkmabpYw",
+    "url": "https://www.ebay.com/itm/267156366935?_skw=laptop&itmmeta=01K2FTB7ZFPM1XBCNNWZGTRZ8V&hash=item3e33c2a657:g:W4EAAeSwVWtoiGrc&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1dmIc3NruqCGDOZhkBoAlqrpH1EnTRgYHqVFR5VDYz8%2Fmvc%2BnEKlfEJCaFTwxJo8oDKLe5NiCMI%2FjSK8Dyz9e22JH38GxQN2l107TWMrKf2rPCfrMGWw%2F%2BRqRrIS1bQF%2BZIo2i9fMZsjQhxNARXEv2r0OZggixLJ%2FGGDLwLPXZ2TYVPXRUcrRrRwBJqsjm%2FwNdtf%2F2k4AcUGLNTxWDjFKLSBn83Ka7z6DB5kTf01xy0Pg%3D%3D%7Ctkp%3ABk9SR6iArfqTZg",
     "image_url": "",
-    "condition": "new",
+    "condition": "refurbished",
     "sale_type": "fixed_price",
     "time_left": "",
     "bid_count": 0,
@@ -17,13 +17,13 @@
       "location": ""
     },
     "shipping": {
-      "cost": "",
-      "location": ""
+      "cost": "+$264.48 delivery",
+      "location": "Located in United States"
     },
-    "item_id": "123456",
+    "item_id": "267156366935",
     "platform": "ebay",
     "search_term": "laptop",
     "condition_filter": "all"
   },
-  "scraped_at": "2025-08-11T18:51:36.329532"
+  "scraped_at": "2025-08-12T20:58:41.812096"
 }

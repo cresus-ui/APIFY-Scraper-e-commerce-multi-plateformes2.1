@@ -1,0 +1,29 @@
+{
+  "platform": "ebay",
+  "product_data": {
+    "title": "HP EliteBook 850 G5 15.6\"  i5 1.60GHZ  16GB  256GB SSDPre-Owned·HP·256 GB$169.99or Best Offer+$236.65 deliveryLocated in United States275 soldderosnopS",
+    "price": 169.99,
+    "original_price": 169.99,
+    "currency": "USD",
+    "url": "https://www.ebay.com/itm/306193488860?_skw=laptop&itmmeta=01K2FTBCFQ5FKZJ81JSQNZP2RJ&hash=item474a8ddbdc:g:XicAAOSw3xNn3d-w&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1fgiR1kPKHEn7nwiFQuiWZkmnUnzjcHh7lx7cg0ObkliQfPSoSTJt%2Fnfz8ho%2BWJGX7%2BUYIvfc5u74o%2F1oDX41btTxcpoDNA4uKe%2BfcpBbrwgnq8r3q8EcZoATvDSXX2zFw0W47ll9txOibmke9WKnqwLfq94WIxZ%2F6qNSCG85%2FuzvYQhK4PzfXz7AEdIg6avM6oK%2FKP98ULkGXvlcsHKoqj%2FGNCVuu5PCTtQJdqoTLdivK3fP0NrAcJ3HlIdYaQ47G4tDLPFzs1KDw2GY093gZA%7Ctkp%3ABk9SR_7HrfqTZg",
+    "image_url": "",
+    "condition": "unknown",
+    "sale_type": "fixed_price",
+    "time_left": "",
+    "bid_count": 0,
+    "seller": {
+      "name": "",
+      "feedback": "",
+      "location": ""
+    },
+    "shipping": {
+      "cost": "+$236.65 delivery",
+      "location": "Located in United States"
+    },
+    "item_id": "306193488860",
+    "platform": "ebay",
+    "search_term": "laptop",
+    "condition_filter": "all"
+  },
+  "scraped_at": "2025-08-12T20:58:42.071846"
+}

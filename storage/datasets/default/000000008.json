@@ -1,11 +1,11 @@
 {
   "platform": "ebay",
   "product_data": {
-    "title": "Shop on eBayOpens in a new window or tab",
-    "price": 20.0,
-    "original_price": 20.0,
+    "title": "2025 Lenovo IdeaPad Laptop 15.6\" Intel Dual-Core, 20GB RAM 1TB SSD, 1-Yr MS 365Brand New·Lenovo·1 TB$339.00Was:$739.0054% offor Best Offer+$308.82 deliveryLocated in United States117 soldderosnopS",
+    "price": 339.0,
+    "original_price": 339.0,
     "currency": "USD",
-    "url": "https://ebay.com/itm/123456?itmmeta=012DEW30YG0MEEKND7NH&hash=item123546:g:acwAA9KNiJowH:sc:ShippingMethodStandard!95008!US!-1&itmprp=enc%3AbgepL1tlUHjMGCVfSTGJh%2BzsVKeJ3CQk7NizDI4BZeppuFnmyS6Ijyp8lh%2FnEw%2BWqO7uTV1Q6izE1R0T54aV8j71F4xlWfVcGft4%2FiOQhtqVXA1rW6M1atPARQRmhqUxtEPJKhKtSFgI%2Bvwlzb0GwVCtkp%3ABlBMUObkmabpYw",
+    "url": "https://www.ebay.com/itm/116546294649?_skw=laptop&itmmeta=01K2FTB7ZFQM0AH74NW5JTDFPF&hash=item1b22b35379:g:DowAAOSwBIpn7Ze0&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1eGYMtDyirnPymg4kZzuaHdk4FnYtqwKLHPuH2obTSs3F3rjssgEH%2FExeMwU%2FNmwPjyWGnQ%2Fx%2F2uylWyUsdQzcWfZT1N%2FUlsGZixDyFczKADTRLRz%2BB6UZkMwCjidf340Q5tODr2dyqZbu%2BCGpyfszO3QVQhLQaJxiqJthJ4a3E7e3UqKMT0ZNhI10%2Brd1NYRulGGXTAr2AKLRNz81sn8uURgbP63Mfot%2BHywFxUR%2FBAfm5xlmt29CFkDOU9WwErNdOaYlCKdZEtMkvXP98jtbY%7Ctkp%3ABk9SR6iArfqTZg",
     "image_url": "",
     "condition": "new",
     "sale_type": "fixed_price",
@@ -17,13 +17,13 @@
       "location": ""
     },
     "shipping": {
-      "cost": "",
-      "location": ""
+      "cost": "+$308.82 delivery",
+      "location": "Located in United States"
     },
-    "item_id": "123456",
+    "item_id": "116546294649",
     "platform": "ebay",
     "search_term": "laptop",
     "condition_filter": "all"
   },
-  "scraped_at": "2025-08-11T18:51:36.318139"
+  "scraped_at": "2025-08-12T20:58:41.808457"
 }

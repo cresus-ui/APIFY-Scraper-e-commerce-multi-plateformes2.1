@@ -1,0 +1,29 @@
+{
+  "platform": "ebay",
+  "product_data": {
+    "title": "HP Elitebook 850 G5 i7 8th Gen 16GB RAM 512GB SSDRefurbished$464.60Buy It Now+$17.42 deliveryLocated in AustriaderosnopS",
+    "price": 464.6,
+    "original_price": 464.6,
+    "currency": "USD",
+    "url": "https://www.ebay.com/itm/357447548064?_skw=laptop&itmmeta=01K2FTBCFQKF19T7JRYYD6EQ1Y&hash=item533988bca0:g:hkoAAeSwWBdomtc5&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1eXPn4CTPW64Qp4ElsKogxJMgCHlwnlbO%2FjMwzN22RknzLrvNu070%2Fv%2Fu63Z7YVjm4DzV6E6R2YD0ptuc9F3c8aHsiCbIzxX4Nh7dt3VPjCxnQdHw1KziYEQCOw97t7pf2GKTwZ5JpJqVXTYJia%2FyDuu3pFnjiEKkZE4yjZrkMEKGiUVsfJ82OU5EkHsAETtqgj8hurlgGm5%2Ba67xCqrgK75X9pma2IV2qGk9IekmrybQ%3D%3D%7Ctkp%3ABk9SR4DIrfqTZg",
+    "image_url": "",
+    "condition": "refurbished",
+    "sale_type": "fixed_price",
+    "time_left": "",
+    "bid_count": 0,
+    "seller": {
+      "name": "",
+      "feedback": "",
+      "location": ""
+    },
+    "shipping": {
+      "cost": "+$17.42 delivery",
+      "location": "Located in Austria"
+    },
+    "item_id": "357447548064",
+    "platform": "ebay",
+    "search_term": "laptop",
+    "condition_filter": "all"
+  },
+  "scraped_at": "2025-08-12T20:58:42.080181"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "trend_analysis",
+  "analysis": {
+    "total_products": 154,
+    "platforms_scraped": [
+      "amazon",
+      "ebay",
+      "walmart",
+      "etsy"
+    ],
+    "price_trends": {
+      "trend": "insufficient_data",
+      "analysis": {}
+    },
+    "stock_analysis": {},
+    "popular_categories": [],
+    "timestamp": "2025-08-12T20:58:41.761874"
+  }
+}

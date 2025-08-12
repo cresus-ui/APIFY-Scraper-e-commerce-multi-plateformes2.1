@@ -1,0 +1,29 @@
+{
+  "platform": "ebay",
+  "product_data": {
+    "title": "MSI GF63 THIN 9SC Spanish Read Well!Parts Only$231.14or Best Offer+$58.08 deliveryLocated in ItalyderosnopS",
+    "price": 231.14,
+    "original_price": 231.14,
+    "currency": "USD",
+    "url": "https://www.ebay.com/itm/257053886916?_skw=laptop&itmmeta=01K2FTBCFRE7XYTE1RC4GVZB11&hash=item3bd99b09c4:g:7QwAAeSw6SZoeaWu&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1cinW80TGybI3SZJ8j81KNg3jEB1LssvC7u10zjQleEOZlhufxACRarbROwaj0y7mzIewU%2FZSFloc9YwS67FqAgahc%2BIJwHCJ6oJZRzCCY5OSZbDFvZW19EG1qS9oUuB7tcOnXb5O8ZR4yqWWpUIi9YxEwe1bwNHGobIUjZqMtjI0TEYDd8%2Fa8nhkCtGwx7ijFCmz4lJLl1bcVifyG9uz3PN2EYXRIDnDMu4m2EAK8LMD%2Fuapn36udrLbVFypHyOcqvJc6WCoAiXl7MxrBWGndx%7Ctkp%3ABk9SR4DIrfqTZg",
+    "image_url": "",
+    "condition": "unknown",
+    "sale_type": "fixed_price",
+    "time_left": "",
+    "bid_count": 0,
+    "seller": {
+      "name": "",
+      "feedback": "",
+      "location": ""
+    },
+    "shipping": {
+      "cost": "+$58.08 delivery",
+      "location": "Located in Italy"
+    },
+    "item_id": "257053886916",
+    "platform": "ebay",
+    "search_term": "laptop",
+    "condition_filter": "all"
+  },
+  "scraped_at": "2025-08-12T20:58:42.101184"
+}

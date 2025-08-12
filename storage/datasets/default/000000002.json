@@ -1,29 +1,29 @@
 {
   "platform": "ebay",
   "product_data": {
-    "title": "Shop on eBayOpens in a new window or tab",
-    "price": 20.0,
-    "original_price": 20.0,
+    "title": "HP ENVY x360 13.3 Convertible Touch Ryzen 7 3700U 16GB 1TB M2 Laptop Stylus Original BoxPre-Owned·HP$219.5249 bids·Time left43m+$23.23 deliveryLocated in GermanyderosnopS",
+    "price": 219.52,
+    "original_price": 219.52,
     "currency": "USD",
-    "url": "https://ebay.com/itm/123456?itmmeta=012DEW30YG0MEEKND7NH&hash=item123546:g:acwAA9KNiJowH:sc:ShippingMethodStandard!95008!US!-1&itmprp=enc%3AbgepL1tlUHjMGCVfSTGJh%2BzsVKeJ3CQk7NizDI4BZeppuFnmyS6Ijyp8lh%2FnEw%2BWqO7uTV1Q6izE1R0T54aV8j71F4xlWfVcGft4%2FiOQhtqVXA1rW6M1atPARQRmhqUxtEPJKhKtSFgI%2Bvwlzb0GwVCtkp%3ABlBMUObkmabpYw",
+    "url": "https://www.ebay.com/itm/157222093976?_skw=laptop&itmmeta=01K2FTB7ZF7BN9Q7S2BA38CQTY&hash=item249b2ac498:g:u3MAAeSwq19ohL8C&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1c6VdplHmSFcbjbrDnG6hB%2Fudsomk67DiD2cQWfX43NC6Mm548JL%2BRTFDVOrvGEz3zDnYDuwGSm%2F3s1GWTUj%2FwXVU0xL%2Ft1VVmBD3IPo1FPnQUlIDQNrirPUT2Ikn3qGu4UQwRa3XPyt3SrdodSnrmQxrTnxqoo04YJlEKXArak8gVMjA3F%2FlXwb%2FhWocTCLIytIdu%2FSUavECOn27xa7nhLRFzGGoFdkJXsQJNdsTuoobTc7W5kSeK1ja4IuKtHecQrWejiBsKfFduPwOABlaqf%7Ctkp%3ABFBMpoCt-pNm",
     "image_url": "",
-    "condition": "new",
-    "sale_type": "fixed_price",
-    "time_left": "",
-    "bid_count": 0,
+    "condition": "unknown",
+    "sale_type": "auction",
+    "time_left": "43m",
+    "bid_count": 49,
     "seller": {
       "name": "",
       "feedback": "",
       "location": ""
     },
     "shipping": {
-      "cost": "",
-      "location": ""
+      "cost": "+$23.23 delivery",
+      "location": "Located in Germany"
     },
-    "item_id": "123456",
+    "item_id": "157222093976",
     "platform": "ebay",
     "search_term": "laptop",
     "condition_filter": "all"
   },
-  "scraped_at": "2025-08-11T18:51:36.246096"
+  "scraped_at": "2025-08-12T20:58:41.779311"
 }

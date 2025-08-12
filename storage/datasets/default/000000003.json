@@ -1,13 +1,13 @@
 {
   "platform": "ebay",
   "product_data": {
-    "title": "Shop on eBayOpens in a new window or tab",
-    "price": 20.0,
-    "original_price": 20.0,
+    "title": "HP EliteBook 840 G3 Laptop PC 14\" Intel Core i5 16GB RAM 256GB SSD Windows 10Very Good - Refurbished·HP$180.78List price:$795.0077% offBuy It Now+$232.86 deliveryLocated in United StateseBay RefurbishedderosnopS",
+    "price": 180.78,
+    "original_price": 180.78,
     "currency": "USD",
-    "url": "https://ebay.com/itm/123456?itmmeta=012DEW30YG0MEEKND7NH&hash=item123546:g:acwAA9KNiJowH:sc:ShippingMethodStandard!95008!US!-1&itmprp=enc%3AbgepL1tlUHjMGCVfSTGJh%2BzsVKeJ3CQk7NizDI4BZeppuFnmyS6Ijyp8lh%2FnEw%2BWqO7uTV1Q6izE1R0T54aV8j71F4xlWfVcGft4%2FiOQhtqVXA1rW6M1atPARQRmhqUxtEPJKhKtSFgI%2Bvwlzb0GwVCtkp%3ABlBMUObkmabpYw",
+    "url": "https://www.ebay.com/itm/254654754368?_skw=laptop&itmmeta=01K2FTB7ZFD2H5SEXKJ8V8FMPY&hash=item3b4a9b2e40:g:fBIAAeSwtgVomtIq&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1egHleKGDsV3nzfHM97y%2FvDdQ68da%2FiNznboHrh0rlpLSX4O%2BGkxoHYWhx95dh7K8Wj6%2FKeUaZzq%2FNJziLWoeSoLwpo8QM9%2F8W3c5Vl5dHtA54AvT%2FtHy3WhmuXM0MKj9PvwfG5VaEMXzlfeqhkQxCgNCL35H2XovtUoDIkj%2BmYyL4kkS1HoUhW9vJoqO7m3xayVRBtaGVC6mXanWkWzuRQOxN4hRBTQvDECm7gDlUbsFW99f3POifi6FGTSf5tWR4%2BO8Xoo1jCaz9xvflfFFOb%7Ctkp%3ABFBMpoCt-pNm",
     "image_url": "",
-    "condition": "new",
+    "condition": "refurbished",
     "sale_type": "fixed_price",
     "time_left": "",
     "bid_count": 0,
@@ -17,13 +17,13 @@
       "location": ""
     },
     "shipping": {
-      "cost": "",
-      "location": ""
+      "cost": "+$232.86 delivery",
+      "location": "Located in United States"
     },
-    "item_id": "123456",
+    "item_id": "254654754368",
     "platform": "ebay",
     "search_term": "laptop",
     "condition_filter": "all"
   },
-  "scraped_at": "2025-08-11T18:51:36.259233"
+  "scraped_at": "2025-08-12T20:58:41.783705"
 }

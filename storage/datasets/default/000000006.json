@@ -1,13 +1,13 @@
 {
   "platform": "ebay",
   "product_data": {
-    "title": "Shop on eBayOpens in a new window or tab",
-    "price": 20.0,
-    "original_price": 20.0,
+    "title": "14\" DELL Latitude Laptop: Intel i5! 4GB RAM! 256GB SSD! Zorin Core Edition!Good - Refurbished·Dell$123.00Was:$173.0029% offor Best Offer+$226.93 deliveryLocated in United StateseBay RefurbishedderosnopS",
+    "price": 123.0,
+    "original_price": 123.0,
     "currency": "USD",
-    "url": "https://ebay.com/itm/123456?itmmeta=012DEW30YG0MEEKND7NH&hash=item123546:g:acwAA9KNiJowH:sc:ShippingMethodStandard!95008!US!-1&itmprp=enc%3AbgepL1tlUHjMGCVfSTGJh%2BzsVKeJ3CQk7NizDI4BZeppuFnmyS6Ijyp8lh%2FnEw%2BWqO7uTV1Q6izE1R0T54aV8j71F4xlWfVcGft4%2FiOQhtqVXA1rW6M1atPARQRmhqUxtEPJKhKtSFgI%2Bvwlzb0GwVCtkp%3ABlBMUObkmabpYw",
+    "url": "https://www.ebay.com/itm/116710871709?_skw=laptop&itmmeta=01K2FTB7ZFW1T6ZS2FRYA0FNWF&hash=item1b2c82929d:g:QvMAAeSwI05oiNbk&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1eFERsQDuVo9pQ7zg%2By2psoJGvsRYqUHSx%2B25FE%2BlkAVKPjXnaD6AG3tOeV7pep9sMmCZDo6GLMjpsjSfoKQ6Ld3tzu0QDSMT9QEYU%2ByMxaKKWgJHK%2Bgnmk%2FDzCcCAqMBvNKt8iXO7aof0tMqaWlfHbYzV%2FEiXxxs%2FvA380MIjhceSEffm%2FLCc%2Fu4na2uQz2uT6BWh%2BzNaximdm0Djl6RaO3rXXjZ%2FsNS3o73ZO5N35Vg%3D%3D%7Ctkp%3ABk9SR6iArfqTZg",
     "image_url": "",
-    "condition": "new",
+    "condition": "refurbished",
     "sale_type": "fixed_price",
     "time_left": "",
     "bid_count": 0,
@@ -17,13 +17,13 @@
       "location": ""
     },
     "shipping": {
-      "cost": "",
-      "location": ""
+      "cost": "+$226.93 delivery",
+      "location": "Located in United States"
     },
-    "item_id": "123456",
+    "item_id": "116710871709",
     "platform": "ebay",
     "search_term": "laptop",
     "condition_filter": "all"
   },
-  "scraped_at": "2025-08-11T18:51:36.294892"
+  "scraped_at": "2025-08-12T20:58:41.796615"
 }

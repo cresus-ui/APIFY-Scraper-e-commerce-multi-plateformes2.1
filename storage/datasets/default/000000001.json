@@ -1,23 +1,29 @@
 {
-  "platform": "amazon",
+  "platform": "ebay",
   "product_data": {
-    "title": "Amazon's Choice: Overall Pick",
-    "price": {
-      "original": 173.0,
-      "discounted": 173.0,
-      "currency": "USD"
-    },
-    "original_price": 173.0,
-    "discounted_price": 173.0,
+    "title": "Dell Latitude 14\" FHD Laptop Core i5 4.2GHz 16GB RAM 512GB SSD Windows 11 ProExcellent - Refurbished·Dell$280.93Buy It Now+$263.25 deliveryLocated in United StateseBay RefurbishedderosnopS",
+    "price": 280.93,
+    "original_price": 280.93,
     "currency": "USD",
-    "url": "https://www.amazon.com/HP-Micro-edge-Microsoft-14-dq0040nr-Snowflake/dp/B0947BJ67M/ref=sr_1_4?dib=eyJ2IjoiMSJ9.V1V3VAhmZv1g13Y1gixsKCUfYSrjPqeXEopgX6uZKTVahjc3DGYTNKm4-0_4y0NuUuuRvVOeK1J6VE8ZwNGsOfaGRDd0CGlagpOQeesQl__ITJ2gnYf0WWfsbt2IKrnaj2F4X6GkkT-xCN3Kalx2Zs-3PiIasMkWCfnCvFR7Ya1KmjCQoLMyu2IlnnjjbfkBJx8Xgi8tD6gIfOcgSNGPi6Vzg5vxQqNMhw7fGKxEyGg.RdbSVijd-F1Oysat8IzqkkKpj4ctTSVMunpusX2tA6Q&dib_tag=se&keywords=laptop&qid=1754931014&sr=8-4",
-    "image_url": "https://m.media-amazon.com/images/I/815uX7wkOZS._AC_UY218_.jpg",
-    "rating": 4.1,
-    "reviews_count": 0,
-    "availability": "unknown",
-    "asin": "B0947BJ67M",
-    "platform": "amazon",
-    "search_term": "laptop"
+    "url": "https://www.ebay.com/itm/256496543516?_skw=laptop&itmmeta=01K2FTB7ZFA6NTQ7AA09BDYB2Q&hash=item3bb862a71c:g:A-kAAeSwQBVoiCW1&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1d3o97uDKize%2FM5ozv1GLw7ItGAi0FCKbe3SeAm7zuvXOOjt7FgZiSs67i7ljscmT%2BKu%2BtkO45RDMWSP95ck6sa%2F84O2u0GBxaUzXYKOxg6r5%2B3wNtkXosvNy3H58Cr3zGt3HOcOscrtlIASknaSc5QYkaAKTs0kKVa3hqRFm28kS4PyXZ6TB2FhW7UrMdOCZbip7SxYMhP59fDOnEvbBeU3NYEal0YeRhZ6MsTIaEJ8HWU37vVoAXEm5MZxuqhKpaRxMf%2FGq9DzpuTyr4hb%2F60%7Ctkp%3ABFBMpoCt-pNm",
+    "image_url": "",
+    "condition": "refurbished",
+    "sale_type": "fixed_price",
+    "time_left": "",
+    "bid_count": 0,
+    "seller": {
+      "name": "",
+      "feedback": "",
+      "location": ""
+    },
+    "shipping": {
+      "cost": "+$263.25 delivery",
+      "location": "Located in United States"
+    },
+    "item_id": "256496543516",
+    "platform": "ebay",
+    "search_term": "laptop",
+    "condition_filter": "all"
   },
-  "scraped_at": "2025-08-11T18:51:36.224976"
+  "scraped_at": "2025-08-12T20:58:41.761897"
 }

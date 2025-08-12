@@ -1,0 +1,29 @@
+{
+  "platform": "ebay",
+  "product_data": {
+    "title": "ASUS Expertbook B5302FEANew (Other)$471.73Buy It Now+$14.51 deliveryLocated in Canada7 watchersderosnopS",
+    "price": 471.73,
+    "original_price": 471.73,
+    "currency": "USD",
+    "url": "https://www.ebay.com/itm/187203380221?_skw=laptop&itmmeta=01K2FTBW34M9JV6TMCPRA6EW2P&hash=item2b9630e3fd:g:9wkAAOSwsoBoG5GX&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1e43bjZoZMbVReF63G%2Ft8sMO7ElkOY%2B9Vuj45afr%2BgpMp07qDVrnriuE2l81IRdVo2WB%2FbTWT0X2UtE4aENAh2xekaoeLaC8qARuQ4Al5fftKXulcicaLUo4MfNIopb3gW%2FyMlWmiizeQ%2FACN34%2FgM2MbLe6sSa1C6JgSXTTRt5X0k51rhpYpRAAo%2B4ziHqjZp0jb7R%2BCQvMiC%2BgPGuBFB8XDwRWpLcaU81amQv92uGRg%3D%3D%7Ctkp%3ABk9SR9jBr_qTZg",
+    "image_url": "",
+    "condition": "new",
+    "sale_type": "fixed_price",
+    "time_left": "",
+    "bid_count": 0,
+    "seller": {
+      "name": "",
+      "feedback": "",
+      "location": ""
+    },
+    "shipping": {
+      "cost": "+$14.51 delivery",
+      "location": "Located in Canada"
+    },
+    "item_id": "187203380221",
+    "platform": "ebay",
+    "search_term": "laptop",
+    "condition_filter": "all"
+  },
+  "scraped_at": "2025-08-12T20:58:42.544548"
+}

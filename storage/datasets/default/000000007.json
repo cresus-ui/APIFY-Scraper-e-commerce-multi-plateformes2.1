@@ -1,11 +1,11 @@
 {
   "platform": "ebay",
   "product_data": {
-    "title": "Shop on eBayOpens in a new window or tab",
-    "price": 20.0,
-    "original_price": 20.0,
+    "title": "Lenovo LOQ-E 15.6\" FHD 144Hz Gaming Laptop i5-12450HX 8GB RAM 512GB SSD RTX 2050Brand New·Lenovo$499.99List price:$699.9929% offBuy It Now+$362.00 deliveryLocated in United StatesLenovo Authorized SellerderosnopS",
+    "price": 499.99,
+    "original_price": 499.99,
     "currency": "USD",
-    "url": "https://ebay.com/itm/123456?itmmeta=012DEW30YG0MEEKND7NH&hash=item123546:g:acwAA9KNiJowH:sc:ShippingMethodStandard!95008!US!-1&itmprp=enc%3AbgepL1tlUHjMGCVfSTGJh%2BzsVKeJ3CQk7NizDI4BZeppuFnmyS6Ijyp8lh%2FnEw%2BWqO7uTV1Q6izE1R0T54aV8j71F4xlWfVcGft4%2FiOQhtqVXA1rW6M1atPARQRmhqUxtEPJKhKtSFgI%2Bvwlzb0GwVCtkp%3ABlBMUObkmabpYw",
+    "url": "https://www.ebay.com/itm/126754097392?_skw=laptop&itmmeta=01K2FTB7ZFH1Y131S94SHF1P7D&hash=item1d832208f0:g:uzAAAOSw~pNncsDK&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1eKIML1ZXtn%2BTf9FGnqCG9bf4O50%2FI3fxK2NRD3BbtGRXLKMqUlRoJS4Nzs07t4L5qEQIKBAQVRPp24IDzjwcxhblPIWwmKggBzb8FJUVChchnF1x2rFU2vyj7sw08W15s%2Bzk8rjD9FiNeSikBGz1qF%2BUufxWc1%2BsD%2FJI5tVoTs7e2%2BTYEK0n5QB4XJX7kykEPHCnnSgKW%2BlxqIkl7EoisODyCYNsetnsxYof4a0gayhH41oqKZOC6sSKBxtYJiWf9PWvWterfR0CGojmaKnERS%7Ctkp%3ABk9SR6iArfqTZg",
     "image_url": "",
     "condition": "new",
     "sale_type": "fixed_price",
@@ -17,13 +17,13 @@
       "location": ""
     },
     "shipping": {
-      "cost": "",
-      "location": ""
+      "cost": "+$362.00 delivery",
+      "location": "Located in United States"
     },
-    "item_id": "123456",
+    "item_id": "126754097392",
     "platform": "ebay",
     "search_term": "laptop",
     "condition_filter": "all"
   },
-  "scraped_at": "2025-08-11T18:51:36.306636"
+  "scraped_at": "2025-08-12T20:58:41.802478"
 }

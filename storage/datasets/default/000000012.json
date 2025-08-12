@@ -1,16 +1,29 @@
 {
-  "type": "trend_analysis",
-  "analysis": {
-    "total_products": 11,
-    "platforms_scraped": [
-      "amazon",
-      "ebay",
-      "walmart",
-      "etsy"
-    ],
-    "price_trends": {},
-    "stock_analysis": {},
-    "popular_categories": [],
-    "timestamp": "2025-08-11T18:51:36.224940"
-  }
+  "platform": "ebay",
+  "product_data": {
+    "title": "Dell 15.6\" NVIDIA Gaming Laptop - Intel Quad Core i7 64GB RAM 4TB SSD Windows 11Very Good - Refurbished$449.99to$775.00Was:$856.00Buy It Now+$331.10 deliveryLocated in United StateseBay RefurbishedderosnopS",
+    "price": 0.0,
+    "original_price": 0.0,
+    "currency": "USD",
+    "url": "https://www.ebay.com/itm/335333304416?_skw=laptop&itmmeta=01K2FTB7ZFG9F7PRSFFQHZH8QM&hash=item4e136c2860:g:AGkAAOSwVsxnfCsq&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1e8jE0PygydmuDn9SKeatKTwBbh%2BzWxbSgWDWuOqfxiUgWB3NUL2PlFw90d2Pmc2gHfnehEy15qSS8o8cOYauczpCfOcn7sdGDJBYr5vtswrKOUjQke2uVom6kHQvWcT8A9Iy1%2FwszzZWNRf9MJSJjA4xtVrz0IIiOU972XcKxFl8tFQSybCV%2FbrxNe2BMiRgxLqL63cIj9L12T8mVkUMRR4hb0Q3L%2FR5emwMFc4Q5B%2Fw%3D%3D%7Ctkp%3ABk9SR6iArfqTZg",
+    "image_url": "",
+    "condition": "refurbished",
+    "sale_type": "fixed_price",
+    "time_left": "",
+    "bid_count": 0,
+    "seller": {
+      "name": "",
+      "feedback": "",
+      "location": ""
+    },
+    "shipping": {
+      "cost": "+$331.10 delivery",
+      "location": "Located in United States"
+    },
+    "item_id": "335333304416",
+    "platform": "ebay",
+    "search_term": "laptop",
+    "condition_filter": "all"
+  },
+  "scraped_at": "2025-08-12T20:58:41.824160"
 }
