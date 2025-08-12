@@ -41,28 +41,40 @@
             "default": 9999999
         },
         "debugMode": {
+            "title": "Debug mode",
             "type": "boolean",
+            "description": "Enable debug mode for detailed logging and troubleshooting.",
             "default": false
         },
         "proxyConfiguration": {
+            "title": "Proxy configuration",
             "type": "object",
+            "description": "Configure proxy settings for the crawler.",
             "properties": {
                 "useApifyProxy": {
+                    "title": "Use Apify Proxy",
                     "type": "boolean",
+                    "description": "Enable Apify Proxy for IP rotation and geo-targeting.",
                     "default": true
                 }
             }
         },
         "saveHtml": {
+            "title": "Save HTML",
             "type": "boolean",
+            "description": "Save the raw HTML content of crawled pages.",
             "default": false
         },
         "saveMarkdown": {
+            "title": "Save Markdown",
             "type": "boolean",
+            "description": "Save the content in Markdown format.",
             "default": false
         },
         "saveScreenshots": {
+            "title": "Save Screenshots",
             "type": "boolean",
+            "description": "Save screenshots of crawled pages.",
             "default": false
         }
     }
