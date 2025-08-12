@@ -1,176 +1,69 @@
 {
-  "title": "Configuration du Scraper E-commerce Multi-Plateformes",
-  "description": "Configurez votre scraper pour extraire des données produits depuis plusieurs plateformes e-commerce avec des options avancées de suivi et d'analyse.",
-  "type": "object",
-  "schemaVersion": 1,
-  "properties": {
-    "search_queries": {
-      "title": "Liste des termes de recherche",
-      "type": "array",
-      "description": "Liste des termes de recherche pour les produits à récupérer sur les plateformes e-commerce. Utilisez des mots-clés précis pour de meilleurs résultats.",
-      "items": {
-        "type": "string",
-        "minLength": 2,
-        "maxLength": 100
-      },
-      "editor": "stringList",
-      "minItems": 1,
-      "maxItems": 50,
-      "prefill": [
-        "iPhone 15 Pro Max",
-        "Samsung Galaxy S24 Ultra"
-      ],
-      "example": [
-        "iPhone 15 Pro Max",
-        "Samsung Galaxy S24 Ultra",
-        "MacBook Air M3",
-        "Chaussures de course Nike Air Zoom",
-        "Montre connectée Garmin Fenix 7",
-        "Aspirateur robot Roomba i7",
-        "Sac à dos anti-vol",
-        "Casque audio Bose QC45",
-        "Tablette graphique Wacom Intuos Pro",
-        "Drone DJI Mini 4 Pro"
-      ]
-    },
-    "platforms": {
-      "title": "Plateformes à scraper",
-      "type": "array",
-      "description": "Sélectionnez les plateformes e-commerce sur lesquelles effectuer les recherches. Plus de plateformes = plus de données mais temps d'exécution plus long.",
-      "items": {
-        "type": "string",
-        "enum": ["amazon", "ebay", "walmart", "etsy", "shopify"]
-      },
-      "editor": "select",
-      "minItems": 1,
-      "uniqueItems": true,
-      "prefill": ["amazon", "ebay"],
-      "example": ["amazon", "ebay", "walmart"]
-    },
-    "max_products_per_query": {
-      "title": "Nombre max de produits par recherche",
-      "type": "integer",
-      "description": "Nombre maximum de produits à récupérer par terme de recherche. Recommandé : 20-50 pour un équilibre performance/qualité.",
-      "minimum": 1,
-      "maximum": 100,
-      "default": 25,
-      "editor": "number",
-      "unit": "produits",
-      "example": 50
-    },
-    "enable_price_tracking": {
-      "title": "Activer le suivi des prix",
-      "type": "boolean",
-      "description": "Active le suivi automatique des prix des produits sur plusieurs exécutions. Permet de détecter les variations de prix dans le temps.",
-      "default": false,
-      "editor": "checkbox",
-      "groupCaption": "Options avancées",
-      "groupDescription": "Fonctionnalités d'analyse et de suivi",
-      "example": true
-    },
-    "enable_trend_analysis": {
-      "title": "Activer l'analyse des tendances",
-      "type": "boolean",
-      "description": "Analyse l'évolution des recherches et des prix au fil du temps. Génère des rapports de tendances et des insights marché.",
-      "default": false,
-      "editor": "checkbox",
-      "example": true
-    },
-    "output_format": {
-      "title": "Format de sortie",
-      "type": "string",
-      "description": "Format des données de sortie générées par l'Actor. JSON pour l'intégration API, CSV pour l'analyse Excel.",
-      "enum": ["json", "csv", "xlsx"],
-      "enumTitles": ["JSON (API/Développement)", "CSV (Excel/Analyse)", "Excel (Rapports avancés)"],
-      "default": "json",
-      "editor": "select",
-      "example": "json"
-    },
-    "proxy_configuration": {
-      "title": "Configuration proxy",
-      "type": "object",
-      "description": "Configuration des proxies pour éviter les blocages pendant le scraping. Recommandé pour un scraping intensif.",
-      "editor": "object",
-      "properties": {
-        "use_proxy": {
-          "title": "Utiliser un proxy",
-          "type": "boolean",
-          "description": "Active l'utilisation de proxies pour contourner les limitations et améliorer la fiabilité.",
-          "default": true,
-          "editor": "checkbox",
-          "example": true
+    "title": "Input schema for Website Content Crawler",
+    "description": "Enter the start URL(s) of the website(s) to crawl, configure other optional settings, and run the Actor to crawl the pages and extract their text content.",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "startUrls": {
+            "title": "Start URLs",
+            "type": "array",
+            "description": "One or more URLs of the pages where the crawler will start. Note that the Actor will additionally only crawl sub-pages of these URLs. For example, for the start URL `https://www.example.com/blog`, it will crawl pages like `https://example.com/blog/article-1`, but will skip `https://example.com/docs/something-else`.",
+            "editor": "requestListSources",
+            "prefill": [
+                { "url": "https://docs.apify.com/" }
+            ]
         },
-        "proxy_groups": {
-          "title": "Groupes de proxies",
-          "type": "array",
-          "description": "Liste des groupes de proxies à utiliser. Laissez vide pour utiliser les proxies par défaut d'Apify.",
-          "items": {
+        "crawlerType": {
+            "sectionCaption": "Crawler settings",
+            "title": "Crawler type",
             "type": "string",
-            "enum": ["RESIDENTIAL", "DATACENTER", "GOOGLE_SERP"]
-          },
-          "editor": "select",
-          "prefill": ["RESIDENTIAL"],
-          "example": ["RESIDENTIAL", "DATACENTER"]
+            "enum": ["playwright:chrome", "cheerio", "jsdom"],
+            "enumTitles": [
+                "Headless web browser (Chrome+Playwright)",
+                "Raw HTTP client (Cheerio)",
+                "Raw HTTP client with JS execution (JSDOM) (experimental!)"
+            ],
+            "description": "Select the crawling engine:\n- **Headless web browser** (default) - Useful for modern websites with anti-scraping protections and JavaScript rendering. It recognizes common blocking patterns like CAPTCHAs and automatically retries blocked requests through new sessions. However, running web browsers is more expensive as it requires more computing resources and is slower. It is recommended to use at least 8 GB of RAM.\n- **Raw HTTP client** - High-performance crawling mode that uses raw HTTP requests to fetch the pages. It is faster and cheaper, but it might not work on all websites.",
+            "default": "playwright:chrome"
         },
-        "session_pool_size": {
-          "title": "Taille du pool de sessions",
-          "type": "integer",
-          "description": "Nombre de sessions proxy simultanées. Plus élevé = plus rapide mais plus coûteux.",
-          "minimum": 1,
-          "maximum": 50,
-          "default": 10,
-          "editor": "number"
+        "maxCrawlDepth": {
+            "title": "Max crawling depth",
+            "type": "integer",
+            "description": "The maximum number of links starting from the start URL that the crawler will recursively descend. The start URLs have a depth of 0, the pages linked directly from the start URLs have a depth of 1, and so on.\n\nThis setting is useful to prevent accidental crawler runaway. By setting it to 0, the Actor will only crawl start URLs.",
+            "minimum": 0,
+            "default": 20
+        },
+        "maxCrawlPages": {
+            "title": "Max pages",
+            "type": "integer",
+            "description": "The maximum number pages to crawl. It includes the start URLs, pagination pages, pages with no content, etc. The crawler will automatically finish after reaching this number. This setting is useful to prevent accidental crawler runaway.",
+            "minimum": 0,
+            "default": 9999999
+        },
+        "debugMode": {
+            "type": "boolean",
+            "default": false
+        },
+        "proxyConfiguration": {
+            "type": "object",
+            "properties": {
+                "useApifyProxy": {
+                    "type": "boolean",
+                    "default": true
+                }
+            }
+        },
+        "saveHtml": {
+            "type": "boolean",
+            "default": false
+        },
+        "saveMarkdown": {
+            "type": "boolean",
+            "default": false
+        },
+        "saveScreenshots": {
+            "type": "boolean",
+            "default": false
         }
-      }
-    },
-    "advanced_options": {
-      "title": "Options avancées",
-      "type": "object",
-      "description": "Configuration avancée pour optimiser les performances et la qualité des données.",
-      "editor": "object",
-      "properties": {
-        "delay_between_requests": {
-          "title": "Délai entre les requêtes (ms)",
-          "type": "integer",
-          "description": "Délai en millisecondes entre chaque requête pour éviter la détection.",
-          "minimum": 100,
-          "maximum": 10000,
-          "default": 1000,
-          "editor": "number",
-          "unit": "ms"
-        },
-        "retry_failed_requests": {
-          "title": "Réessayer les requêtes échouées",
-          "type": "boolean",
-          "description": "Réessaie automatiquement les requêtes qui ont échoué.",
-          "default": true,
-          "editor": "checkbox"
-        },
-        "max_retries": {
-          "title": "Nombre max de tentatives",
-          "type": "integer",
-          "description": "Nombre maximum de tentatives pour chaque requête échouée.",
-          "minimum": 1,
-          "maximum": 5,
-          "default": 3,
-          "editor": "number"
-        },
-        "include_images": {
-          "title": "Inclure les images produits",
-          "type": "boolean",
-          "description": "Télécharge et inclut les URLs des images produits dans les résultats.",
-          "default": true,
-          "editor": "checkbox"
-        },
-        "include_reviews": {
-          "title": "Inclure les avis clients",
-          "type": "boolean",
-          "description": "Extrait un échantillon d'avis clients pour chaque produit.",
-          "default": false,
-          "editor": "checkbox"
-        }
-      }
     }
-  },
-  "required": ["search_queries", "platforms"]
 }
